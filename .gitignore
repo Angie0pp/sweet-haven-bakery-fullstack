@@ -1,0 +1,59 @@
+
+# =====================================
+# SWEET HAVEN BAKERY - GITIGNORE
+# =====================================
+
+# React / Vite dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+backend/.env
+
+# PHP dependencies
+backend/vendor/
+
+# PHP temporary files
+*.log
+*.cache
+
+# Database backups and exports
+*.sql.zip
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Build and coverage files
+coverage/
+dist/
+build/
+
+# Private credentials
+secrets/
+credentials/
